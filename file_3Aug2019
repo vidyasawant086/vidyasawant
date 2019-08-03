@@ -1,0 +1,483 @@
+    1  pwd
+    2  cd /usr/local
+    3  pd
+    4  pwd
+    5  git clone https://github.com/vidyasawant086/vidyasawant.git 
+    6  yum install -y git 
+    7  git clone https://github.com/vidyasawant086/vidyasawant.git 
+    8  cd vidyasawant
+    9  ls
+   10  ls -a
+   11  cat ~/.gitconfig
+   12  git config --global user.email "vidya.sawant89@gmail.com
+   13  "
+   14  git config --global user.name "vidyasawant089"
+   15  cat ~/.gitconfig
+   16  vi file1
+   17  git add file1
+   18  git status
+   19  git commit -m "adding a file"
+   20  git status
+   21  git push
+   22  ls
+   23  git log
+   24  git log --oneline
+   25  cd /usr/local/vidyasawant/
+   26  ls
+   27  vi file1 
+   28  git commit -a -m file1 "Adding new lines"
+   29  git commit -a -m  "Adding new lines in test1"
+   30  git log --oneline
+   31  git checkout 817009d
+   32  cat file1
+   33  git checkout 2482ce3
+   34  cat file1
+   35  git status
+   36  git checkout master 
+   37  cat file1
+   38  git log --oneline
+   39  git revert 2482ce3
+   40  git revert 817009d
+   41  ls
+   42  vi file1 
+   43  ls
+   44  git branch
+   45  git branch -feature
+   46  git branch test_feature
+   47  ls
+   48  checkout test_feature
+   49  git checkout test_feature
+   50  git staus 
+   51  git branch
+   52  ls
+   53  git branch 
+   54  git checkout test_feature
+   55  git status
+   56  git branch
+   57  git branch test_feature
+   58  ls
+   59  cat file1
+   60  git status
+   61  git branch
+   62  git checkout test_feature
+   63  git --status
+   64  git status
+   65  ls
+   66  git add file1
+   67  git status
+   68  history 
+   69  git checkout test_feature
+   70  git --status
+   71  git status
+   72  vi test123
+   73  git status
+   74  ls
+   75  git commit -a -m "Creating new file test123"
+   76  git add test123
+   77  git commit -a -m "Creating new file test123"
+   78  git status
+   79  ls
+   80  git checkout master
+   81  git status
+   82  git marge test_feature
+   83  ls
+   84  vi file1 
+   85  ls
+   86  git status
+   87  git commit -a -m "Updating third line in file1"
+   88  git marge test_feature
+   89  ls
+   90  git merge test_feature
+   91  git status
+   92  ls
+   93  get status
+   94  ls
+   95  cat fie1
+   96  cat file1
+   97  ls
+   98  at test123
+   99  cat test123
+  100  history > /home/centos/july13.txt
+  101  git status
+  102  git merge master
+  103  ls
+  104  git merge test_feature
+  105  git status
+  106  ls
+  107  git checkout test_feature
+  108  git status
+  109  ls
+  110  cat file1
+  111  cat test123
+  112  git merge master
+  113  cat file1
+  114  git --status
+  115  git status
+  116  ls
+  117  get status
+  118  git status
+  119  df -h
+  120  git clone https://github.com/vidyasawant086/vidyasawant.git 
+  121  ls
+  122  cd vidyasawant/
+  123  ls
+  124  git branch 
+  125  cat file1 
+  126  git branch etlhive
+  127  git checkout etlhive
+  128  git branch
+  129  vi file5
+  130  git add file5
+  131  git commit -m "adding a filename  file5 in etlhivebranch"merge
+  132  git branch
+  133  git checkout master
+  134  ls
+  135  git merge etlhive
+  136  ls
+  137  cat file5
+  138  git branch -d etlhive
+  139  ls
+  140  git branch
+  141  ls
+  142  cat file5
+  143  ls
+  144  vi file5
+  145  git commit -m "adding the content inside file5"
+  146  git log --oneline
+  147  git commit -m "adding the content inside file5"
+  148  git log --oneline
+  149  git push
+  150  ls
+  151  cat fil5
+  152  cat fiel5
+  153  cat file5
+  154  git log --oneline
+  155  git revert "9c69216"
+  156  cat file5
+  157  git commit -a -m "adding the content inside file5"
+  158  git log --oneline
+  159  vi file5
+  160  git commit -a -m "adding the extra content inside file5"
+  161  git log --oneline
+  162  git revert "62d1ed7 revering the file5"
+  163  git revert "62d1ed7"
+  164  cat file5
+  165  vi file5
+  166  cat file1
+  167  vi file1
+  168  git commit -a -m "adding the extra content inside file1"
+  169  git log --oneline
+  170  git revert "56e84fb"
+  171  git push
+  172  git revert "56e84fb"
+  173  git log --oneline
+  174  get revert "a74fd40 file5"
+  175  git revert "a74fd40 file5"
+  176  git revert "62d1ed7 file5"
+  177  git revert "62d1ed7 
+  178  git log --oneline
+  179  ls
+  180  cd vidyasawant/
+  181  ls
+  182  git clone https://github.com/nixvipin/mygitrepo1.gitgit clone https://github.com/nixvipin/mygitrepo1.gitgit clone https://github.com/nixvipin/mygitrepo1.git
+  183  git clone https://github.com/nixvipin/mygitrepo1.git
+  184  ls
+  185  git --online
+  186  cd mygitrepo1/
+  187  ls
+  188  cd ..
+  189  lls
+  190  ls
+  191  rm -rf file1
+  192  rm -rf file5
+  193  ls -ltr
+  194  vi file1
+  195  git add file1
+  196  git comment -m "Created file1"
+  197  git commit -m "Created file1"
+  198  ls
+  199  git log --oneline
+  200  git push
+  201  ls
+  202  cd mygitrepo1/
+  203  ls
+  204  cd ..
+  205  ls
+  206  cat file1
+  207  vi file1
+  208  git commit -a -m "One change made instead of s add a file1"
+  209  git log --oneline
+  210  git push
+  211  ls
+  212  cat file1
+  213  git branch
+  214  git checkout master 
+  215  git log --oneline
+  216  git revert 95320bc
+  217  cat file1
+  218  git revert 95320bc
+  219  cat file1
+  220  git log --oneline
+  221  git revert 95320bc
+  222  cat file1
+  223  git log --oneline
+  224  git revert c5760eb
+  225  cat file1
+  226  git revert 95320bc
+  227  cat file1
+  228  vi file1
+  229  man ls
+  230  q!
+  231  sl --help
+  232  ls --help 
+  233  ls =l
+  234  ls -l
+  235  ls -ltr
+  236  chmod o+x file1
+  237  ls -ltr
+  238  ifconfig -a
+  239  ip addr
+  240  t[2~[2~[2~[2~[2~[2~[2~[2~[2~[2~[2~[2~ar -zcfv file1.tar.gz  file5
+  241  ls
+  242  mkdir vidya
+  243  tar -zcvf vidya.tar.gz vidya
+  244  sl ltr
+  245  ls -ltr
+  246  tar -czvf vidya1.tar.gz vidya
+  247  ls -ltr
+  248  du -shc file1
+  249  du -shc vidya1.tar.gz 
+  250  du -shc mygitrepo1
+  251  vi /etc/services 
+  252  yum -y install telnet 
+  253  telnet www.google.com 80
+  254  telnet www.google.com 22
+  255  vi /etc/hostname 
+  256  exit
+  257  ls -ltr
+  258  git clone https://github.com/nixvipin/mygitrepo1.git
+  259  ls
+  260  cd vidyasawant/
+  261  ls
+  262  pwd
+  263  cd ~
+  264  ls
+  265  cp -ir script2 /root/vidyasawant/
+  266  cp -ir script3 /root/vidyasawant/
+  267  cp -ir script /root/vidyasawant/
+  268  ls -ltr
+  269  cd vidyasawant/
+  270  ls
+  271  rm -rf v
+  272  ls
+  273  git commit -a -m script1
+  274  git commit -a -m script2
+  275  git commit -a -m script3
+  276  git commit -a -m script3 cls
+  277  ls
+  278  git push 
+  279  ls
+  280  git clone https://github.com/vidyasawant086/vidyasawant.git
+  281  ls
+  282  git commit -a -m script3 
+  283  git commit -a -m script2 
+  284  git commit -a -m script
+  285  git push 
+  286  ls
+  287  cat script3
+  288  exit
+  289  clear
+  290  cal 09 1986
+  291  cal 09 1987
+  292  cal 09 1988
+  293  cal 09 1981
+  294  rpm -qa |wc -l
+  295  rpm -qa 
+  296  rpm -qa | grep https
+  297  rpm -qa | grep httpd
+  298  rpm -qa | grep -i grub2
+  299  rpm -qa grub
+  300  rpm -qac grub
+  301  cat /etc/hostname 
+  302  cal 07 1986
+  303  cal 07 1981
+  304  vi script
+  305  chmod 777 script 
+  306  ./script 
+  307  bash  -x script a
+  308  ./script avi 
+  309  vi ./script 
+  310  ./script avi 
+  311  vi ./script 
+  312  ./script 
+  313  vi script1
+  314  vi script2
+  315  chmod 777 script2
+  316  ./script2
+  317  cat ./script
+  318  cat ./script2
+  319  ./script
+  320  ./script2
+  321  cat script2
+  322  vi script3
+  323  chmod 777 script3
+  324  ./script3
+  325  ./script3avi 
+  326  vi ./script3
+  327  ./script3
+  328  ./script3avi 
+  329  vi ./script3
+  330  ./script3
+  331  git clone https://github.com/vidyasawant086/vidyasawant.git
+  332  ls
+  333  cd mygitrepo1/
+  334  ls
+  335  mkdir vidya_scripts
+  336  cd vidya_scripts/
+  337  vi script1.sh
+  338  vi script2.sh
+  339  vi script1.sh
+  340  vi script3.sh
+  341  vi script4.sh
+  342  cd ..
+  343  chmod 777 -R vidya_scripts/
+  344  git commit -a -m vidya_scripts
+  345  git push 
+  346  pwd
+  347  cd ..
+  348  ls
+  349  cp -ir /root/mygitrepo1/vidya_scripts/ vidyasawant/
+  350  cd vidyasawant/
+  351  ls
+  352  git commit -a -m vidyasawant
+  353  git add vidyasawant
+  354  git commit  -m vidyasawant
+  355  ls
+  356  cd vidyasawant/
+  357  cd ..
+  358  ls
+  359  tar -zcvf vidya_scripts.tar.gz vidya_scripts 
+  360  git -add vidya_scripts
+  361  git commit -a  -m vidya_scripts
+  362  git commit -a  -m vidya_scripts.tar.gz 
+  363  git push 
+  364  exit
+  365  ls
+  366  cd vidyasawant/
+  367  ls -ltr
+  368  tar -zcvf vidya_scripts.tar.gz
+  369  tar -xvf vidya_scripts.tar.gz
+  370  ls -ltr
+  371  cd vidya_scripts
+  372  ls
+  373  ls -ltr
+  374  vi script1.sh 
+  375  ./script1.sh 
+  376  cd /tmp
+  377  ls
+  378  cd ..
+  379  ls -ltr
+  380  ls
+  381  cd ~
+  382  ls
+  383  cd vidyasawant/
+  384  cd ..
+  385  cd mygitrepo1/
+  386  ls -ltr
+  387  cd vidya_scripts/
+  388  ls
+  389  cd ..
+  390  ld
+  391  cd /usr/local/
+  392  ls -a
+  393  cd vidyasawant/
+  394  ls -a
+  395  pwd
+  396  git remove -v
+  397  ls -l
+  398  cd ..
+  399  ls -ltr
+  400  git config -l
+  401  cd vidyasawant
+  402  sl -ltr
+  403  ls -ltr
+  404  vi happy1.txt
+  405  ls
+  406  git config -l
+  407  git config --global user.email "vidya.sawant89@gmail.com"
+  408  git config --global user.name "VidyaSawant"
+  409  cat ~/.gitconfig
+  410  git status
+  411  git add happy1.txt 
+  412  git status
+  413  ls -ltr
+  414  ls
+  415  git commit -m "adding a new file"
+  416  git status
+  417  ls -ltr
+  418  ls
+  419  git push
+  420  ls
+  421  git push
+  422  git push 
+  423  git og --oneline
+  424  git log --oneline
+  425  git push 
+  426  git featch -a
+  427  git branch
+  428  git checkout test_feature
+  429  git status
+  430  git branch
+  431  ls
+  432  echo "my new test file is feature branch" > feature.txt
+  433  git sttaus
+  434  git status
+  435  ls
+  436  git add feature.txt
+  437  git commit -m "adding a new file by vidya"
+  438  git checkout  master
+  439  ls
+  440  git branch
+  441  ls
+  442  git checkout test_feature
+  443  git branch
+  444  ls
+  445  gi remove -v
+  446  git remove -v
+  447  git remote -v
+  448  git push origin test_feature
+  449  ls
+  450  ls -a
+  451  vi ~./c
+  452  cd ~
+  453  ls
+  454  ls -a
+  455  pwd
+  456  cd /usr/local/vidyasawant/
+  457  vim ~/.netrc
+  458  vi ~/.netrc
+  459  git branch
+  460  vi file_new
+  461  git add file_new
+  462  git commit -m "adding a new file file_new"
+  463  git checkout master 
+  464  git branch 
+  465  git merge feaure
+  466  git merge test_feature
+  467  ls -ltr
+  468  histoy > file_3Aug2019
+  469  history > file_3Aug2019
+  470  ls -ltr
+  471  git push origin master 
+  472  git branch
+  473  ls
+  474  git branch -d test_feature
+  475  ls
+  476  git fetch 
+  477  git branch -r
+  478  git branch
+  479  ls
+  480  git checkout -b origin/test_feature
+  481  git branches
+  482  git branch
+  483  history > file_3Aug2019
